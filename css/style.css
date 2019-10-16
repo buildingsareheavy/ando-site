@@ -69,7 +69,7 @@ select {
 
 :root {
   --base-font-size: 18px;
-  --text-color: hsl(0, 0%, 80%);
+  --text-color: hsl(0, 0%, 90%);
   --bg-color: hsl(0, 0%, 5%);
   --width: 850px; }
 
