@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:700|Rubik|Fira+Code&display=swap');
+
+html {
+  font-size: var(--base-font-size);
+}
+
+body {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  small {
+    font-family: 'Comfortaa', cursive;
+  }
+  p,
+  span,
+  summary,
+  ul,
+  li,
+  a,
+  #github {
+    font-family: 'Rubik', serif;
+  }
+}
+
+.toolbar .toolbar-item button,
+code[class*='language-'],
+pre[class*='language-'] {
+  // Copy code button
+  font-family: 'Fira Code', serif !important;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+.pt-1 {
+  padding-top: 1rem;
+}
+
+.pt-2 {
+  padding-top: 2rem;
+}
+
+.pt-3 {
+  padding-top: 3rem;
+}
+
+.pt-4 {
+  padding-top: 4rem;
+}

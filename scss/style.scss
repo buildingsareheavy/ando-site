@@ -1,0 +1,111 @@
+@import './_reset';
+@import './variables';
+@import './typography';
+@import './prism';
+
+html {
+  background: var(--bg-color);
+  img {
+    width: 100%;
+    border-radius: 2px;
+  }
+}
+a {
+  transition: opacity 0.5s;
+  &:hover {
+    opacity: 0.65;
+  }
+}
+
+#github {
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  padding: 1rem;
+}
+
+main {
+  padding: 1em;
+  animation: fadein 5s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+section,
+footer {
+  max-width: var(--width);
+  margin: 0 auto;
+  padding: 12rem 0;
+  @media screen and (max-width: 850px) {
+    padding: 8rem 0;
+  }
+  * {
+    color: var(--text-color);
+  }
+}
+
+footer {
+  padding: 6rem 0 2rem 0;
+  text-align: center;
+}
+.muted {
+  opacity: 0.7;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 2rem;
+  @media screen and (max-width: 850px) {
+    display: block;
+    img {
+      padding-top: 3rem;
+    }
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+button,
+summary {
+  cursor: pointer;
+}
+
+.intro {
+  @media screen and (min-width: calc(850px - 1px)) {
+    padding-top: 13.5rem;
+  }
+  p {
+    font-size: 2rem;
+    @media screen and (max-width: 850px) {
+      font-size: 1.25rem;
+    }
+  }
+}
+
+.whois {
+  div {
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 200px;
+    align-self: center;
+  }
+  @media screen and (min-width: calc(850px - 1px)) {
+    h2 {
+      transform: translateY(2rem);
+    }
+  }
+}
+
+.includes {
+  h3 {
+    font-size: 1rem;
+  }
+}
