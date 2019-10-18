@@ -326,6 +326,8 @@ footer {
 
 .muted {
   opacity: 0.7; }
+  .muted::before, .muted::after {
+    content: '*'; }
 
 .grid {
   display: grid;
