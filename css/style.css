@@ -278,12 +278,15 @@ div.code-toolbar > .toolbar span:focus {
   text-decoration: none; }
 
 html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   background: var(--bg-color); }
   html img {
     width: 100%;
     border-radius: 2px; }
 
 a {
+  transition-timing-function: ease-in-out;
   transition: opacity 0.5s; }
   a:hover {
     opacity: 0.65; }
@@ -327,11 +330,13 @@ footer {
 .grid {
   display: grid;
   grid-gap: 2rem; }
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: calc(850px / 1.25)) {
     .grid {
       display: block; }
       .grid img {
-        padding-top: 3rem; } }
+        padding-top: 3rem;
+        max-width: 400px;
+        margin: 0 auto; } }
 
 .flex {
   display: flex; }

@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-150360628-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-150360628-1');
+    </script>
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -16,7 +31,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://ando.netlify.com/" />
     <meta
-      property="description"
+      name="description"
       content="A shell script for a clean and simple front-end web development environment on macOS."
     />
     <meta
@@ -373,7 +388,7 @@
         <p class="pt-2">Download:</p>
         <pre
           class="language-bash"
-        ><code class="language-bash">git clone https://github.com/minamarkham/formation.git && cd formation</code></pre>
+        ><code class="language-bash">git clone https://github.com/buildingsareheavy/ando.git && cd ando</code></pre>
         <p>
           Review: (please don't run scripts you don't understand)
         </p>
@@ -398,7 +413,7 @@
       <section class="acknowledge">
         <h2>Acknowledgements</h2>
         <p>
-          This code is heavily based on and copied from:
+          Code was inspired, copied and modified from:
           <a href="https://github.com/minamarkham">Mina Markham's</a>
           <a href="https://github.com/minamarkham/formation">formation</a>.
         </p>
@@ -421,6 +436,5 @@
     </footer>
 
     <script src="./js/prism.js"></script>
-    <script src="./js/index.js"></script>
   </body>
 </html>
