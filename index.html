@@ -1,383 +1,491 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150360628-1"></script>
-        <script>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-150360628-1"
+    ></script>
+    <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
         dataLayer.push(arguments);
       }
-      gtag('js', new Date());
+      gtag("js", new Date());
 
-      gtag('config', 'UA-150360628-1');
+      gtag("config", "UA-150360628-1");
     </script>
 
-        <meta charset="UTF-8"/>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-        <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
-        <meta content="https://ando.netlify.com/assets/preview.jpg" property="og:image"/>
-        <meta content="Ando preview" property="og:image:alt"/>
-        <meta content="image/jpg" property="og:image:type"/>
-        <meta content="1080" property="og:image:width"/>
-        <meta content="720" property="og:image:height"/>
-        <meta content="Ando" property="og:title"/>
-        <meta content="website" property="og:type"/>
-        <meta content="https://ando.netlify.com/" property="og:url"/>
-        <meta content="A shell script for a clean and simple front-end web development environment on macOS." name="description"/>
-        <meta content="A shell script for a clean and simple front-end web development environment on macOS." property="og:description"/>
-        <meta content="en_US" property="og:locale"/>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="ie=edge" http-equiv="X-UA-Compatible" />
+    <meta
+      content="https://ando.netlify.com/assets/preview.jpg"
+      property="og:image"
+    />
+    <meta content="Ando preview" property="og:image:alt" />
+    <meta content="image/jpg" property="og:image:type" />
+    <meta content="1080" property="og:image:width" />
+    <meta content="720" property="og:image:height" />
+    <meta content="Ando" property="og:title" />
+    <meta content="website" property="og:type" />
+    <meta content="https://ando.netlify.com/" property="og:url" />
+    <meta
+      content="A shell script for a clean and simple front-end web development environment on macOS."
+      name="description"
+    />
+    <meta
+      content="A shell script for a clean and simple front-end web development environment on macOS."
+      property="og:description"
+    />
+    <meta content="en_US" property="og:locale" />
 
-        <link href="./css/style.css" rel="stylesheet"/>
-        <title>Ando</title>
-    </head>
-    <body>
-        <main>
-            <section class="intro">
-                <h1>Ando</h1>
-                <p>
-                    A shell script for a clean and simple front-end web development                                                                                                  environment on macOS.
-                </p>
-                <a href="https://github.com/buildingsareheavy/ando" id="github">View on Github</a>
-            </section>
+    <link href="./css/style.css" rel="stylesheet" />
+    <title>Ando</title>
+  </head>
+  <body>
+    <main>
+      <section class="intro">
+        <h1>Ando</h1>
+        <p>
+          A shell script for a clean and simple front-end web development
+          environment on macOS.
+        </p>
+        <a href="https://github.com/buildingsareheavy/ando" id="github"
+          >View on Github</a
+        >
+      </section>
 
-            <section class="whois">
-                <h2>Why Ando?</h2>
+      <section class="whois">
+        <h2>Why Ando?</h2>
 
-                <div class="grid">
-                    <div>
-                        <p class="pt-2">
-                            <a href="https://en.wikipedia.org/wiki/Tadao_Ando" rel="">Tadao Ando</a>
-                            is a a Japanese self-taught architect whose style emphasizing                                                                                                                                                      nothingness and empty space to represent the beauty of simplicity.
-                        </p>
-                        <p class="pt-1">This script was inspired by his philosophy.</p>
-                    </div>
+        <div class="grid">
+          <div>
+            <p class="pt-2">
+              <a href="https://en.wikipedia.org/wiki/Tadao_Ando" rel=""
+                >Tadao Ando</a
+              >
+              is a a Japanese self-taught architect whose style emphasizing
+              nothingness and empty space to represent the beauty of simplicity.
+            </p>
+            <p class="pt-1">This script was inspired by his philosophy.</p>
+          </div>
 
-                    <figure>
-                        <img alt="Tadao Ando" src="./assets/ando.jpg"/>
-                    </figure>
-                </div>
-            </section>
+          <figure>
+            <img alt="Tadao Ando" src="./assets/ando.jpg" />
+          </figure>
+        </div>
+      </section>
 
-            <section class="includes">
-                <h2>What Does It Include?</h2>
-                <details class="pt-1">
-                    <summary>Basic Tools</summary>
-                    <ul>
-                        <li>
-                            <a href="https://developer.apple.com/xcode/downloads/" rel="nofollow">XCode Command Line Tools</a>
-                            for developer essentials.
-                        </li>
-                        <li>
-                            <a href="https://github.com/Bash-it/bash-it/">Bash-it</a>, for a                                                                                                                                                                              more powerful bash.
-                        </li>
-                        <li>
-                            <a href="https://github.com/creationix/nvm/">NVM</a>
-                            for managing                                                                                                                                                      and installing multiple versions of
-                            <a href="http://nodejs.org/" rel="nofollow">Node.js</a>
-                            and
-                            <a href="https://www.npmjs.org/" rel="nofollow">npm</a>
-                        </li>
-                        <li>
-                            <a href="http://brew.sh/" rel="nofollow">Homebrew</a>
-                            for managing                                                                                                                                                      operating system libraries.
-                        </li>
-                    </ul>
-                </details>
+      <section class="includes">
+        <h2>What Does It Include?</h2>
+        <details class="pt-1">
+          <summary>Basic Tools</summary>
+          <ul>
+            <li>
+              <a
+                href="https://developer.apple.com/xcode/downloads/"
+                rel="nofollow"
+                >XCode Command Line Tools</a
+              >
+              for developer essentials.
+            </li>
+            <li>
+              <a href="https://github.com/Bash-it/bash-it/">Bash-it</a>, for a
+              more powerful bash.
+            </li>
+            <li>
+              <a href="https://github.com/creationix/nvm/">NVM</a>
+              for managing and installing multiple versions of
+              <a href="http://nodejs.org/" rel="nofollow">Node.js</a>
+              and
+              <a href="https://www.npmjs.org/" rel="nofollow">npm</a>
+            </li>
+            <li>
+              <a href="http://brew.sh/" rel="nofollow">Homebrew</a>
+              for managing operating system libraries.
+            </li>
+          </ul>
+        </details>
 
-                <details>
-                    <summary>Homebrew: Brews</summary>
-                    <ul>
-                        <li>
-                            <a href="https://git-scm.com/" rel="nofollow">Git</a>
-                            for version                                                                                                                                                      control.
-                        </li>
-                        <li>
-                            <a href="https://jonas.github.io/tig/" rel="nofollow">Tig</a>
-                            is a                                                                                                                                                      text interface for Git repositories.
-                        </li>
-                        <li>
-                            <a href="https://github.com/mas-cli/mas/">Mas</a>
-                            is a Mac App                                                                                                                                                      Store command line interface.
-                        </li>
-                        <li>
-                            <a href="https://www.gnu.org/software/wget/" rel="nofollow">wget</a>
-                            is an internet file retriever.
-                        </li>
-                        <li>
-                            <a href="https://hub.github.com/">Hub</a>
-                            adds GitHub support to                                                                                                                                                      git on the command-line.
-                        </li>
-                        <li>
-                            <a href="https://github.com/JamieMason/ImageOptim-CLI">ImageOptim-CLI</a>
-                            to make batch optimisation of images part of your automated build                                                                                                                                                      process.
-                        </li>
-                        <li>
-                            <a href="https://github.com/sstephenson/rbenv/">Rbenv</a>
-                            for                                                                                                                                                      managing versions of Ruby.
-                        </li>
-                        <li>
-                            <a href="https://yarnpkg.com/en/" rel="nofollow">Yarn</a>
-                            for                                                                                                                                                      managing JavaScript packages.
-                        </li>
-                        <li>
-                            <a href="https://www.zsh.org/" rel="nofollow">ZSH</a>
-                            is a UNIX                                                                                                                                                      shell (command interpreter).
-                        </li>
-                        <li>
-                            <a href="https://github.com/zsh-users/zsh-syntax-highlighting/">ZSH Syntax Highlighting</a>
-                            Fish shell like syntax highlighting for zsh.
-                        </li>
-                        <li>
-                            <a href="https://github.com/nvbn/thefuck/">TheFuck</a>
-                            helps                                                                                                                                                      programatically correct mistyped console commands.
-                        </li>
-                        <li>
-                            <a href="https://wp-cli.org/">WP-CLI</a>
-                            is the                                                                                                                                      command-line interface for WordPress. You can update plugins,                                                                                                                                      configure multisite installations and much more, without using a                                                                                                                                      web browser.
-                        </li>
-                    </ul>
-                </details>
+        <details>
+          <summary>Homebrew: Brews</summary>
+          <ul>
+            <li>
+              <a href="https://git-scm.com/" rel="nofollow">Git</a>
+              for version control.
+            </li>
+            <li>
+              <a href="https://jonas.github.io/tig/" rel="nofollow">Tig</a>
+              is a text interface for Git repositories.
+            </li>
+            <li>
+              <a href="https://github.com/mas-cli/mas/">Mas</a>
+              is a Mac App Store command line interface.
+            </li>
+            <li>
+              <a href="https://www.gnu.org/software/wget/" rel="nofollow"
+                >wget</a
+              >
+              is an internet file retriever.
+            </li>
+            <li>
+              <a href="https://hub.github.com/">Hub</a>
+              adds GitHub support to git on the command-line.
+            </li>
+            <li>
+              <a href="https://github.com/JamieMason/ImageOptim-CLI"
+                >ImageOptim-CLI</a
+              >
+              to make batch optimisation of images part of your automated build
+              process.
+            </li>
+            <li>
+              <a href="https://github.com/sstephenson/rbenv/">Rbenv</a>
+              for managing versions of Ruby.
+            </li>
+            <li>
+              <a href="https://yarnpkg.com/en/" rel="nofollow">Yarn</a>
+              for managing JavaScript packages.
+            </li>
+            <li>
+              <a href="https://www.zsh.org/" rel="nofollow">ZSH</a>
+              is a UNIX shell (command interpreter).
+            </li>
+            <li>
+              <a href="https://github.com/zsh-users/zsh-syntax-highlighting/"
+                >ZSH Syntax Highlighting</a
+              >
+              Fish shell like syntax highlighting for zsh.
+            </li>
+            <li>
+              <a href="https://github.com/nvbn/thefuck/">TheFuck</a>
+              helps programatically correct mistyped console commands.
+            </li>
+            <li>
+              <a href="https://wp-cli.org/">WP-CLI</a>
+              is the command-line interface for WordPress. You can update
+              plugins, configure multisite installations and much more, without
+              using a web browser.
+            </li>
+          </ul>
+        </details>
 
-                <details>
-                    <summary>Homebrew: Casks</summary>
-                    <ul>
-                        <li>
-                            <a href="https://www.mozilla.org/en-US/firefox/new/" rel="nofollow">Firefox</a>
-                            for web browsing and testing.
-                        </li>
-                        <li>
-                            <a href="https://www.mozilla.org/en-US/firefox/developer/" rel="nofollow">Firefox Developer Edition</a>
-                            is my main web browser for development. Best CSS tools built in.                                                                                                                                                      Read more
-                            <a href="https://www.smashingmagazine.com/2019/10/guide-new-experimental-css-devtools-firefox/" rel="nofollow">here</a>.
-                        </li>
-                        <li>
-                            <a href="https://www.google.com/chrome/browser/desktop/" rel="nofollow">Google Chrome</a>
-                            for fast and free web browsing.
-                        </li>
-                        <li>
-                            <a href="https://hyper.is/" rel="nofollow">Hyper</a>
-                            for an                                                                                                                                                      alternative terminal.
-                        </li>
-                        <li>
-                            <a href="https://imageoptim.com/mac" rel="nofollow">ImageOptim</a>
-                            to make batch optimisation of images part of your automated build                                                                                                                                                      process.
-                        </li>
-                        <li>
-                            <a href="https://www.mamp.info/en/" rel="nofollow">MAMP</a>
-                            for                                                                                                                                                      PHP / Wordpress development.
-                        </li>
-                        <li>
-                            <a href="https://developer.microsoft.com/en-us/microsoft-edge/" rel="nofollow">Microsoft Edge Dev</a>
-                            for testing.
-                        </li>
-                        <li>
-                            <a href="https://www.spotify.com/" rel="nofollow">Spotify</a>
-                            for music.
-                        </li>
-                        <li>
-                            <a href="https://code.visualstudio.com/" rel="nofollow">Visual Studio Code</a>
-                            IDE.
-                        </li>
-                        <li>
-                            <a href="https://github.com/Homebrew/homebrew-cask-fonts/blob/master/Casks/font-dejavusansmono-nerd-font-mono.rb">FONT: Dejavu Sans Mono</a>
-                            for command-line font. Has glyph support for
-                            <code>git</code>
-                            and works well with
-                            <a href="https://github.com/romkatv/powerlevel10k">PowerLevel10K</a>
-                            (a ZSH theme).
-                        </li>
-                        <li>
-                            <a href="https://github.com/Homebrew/homebrew-cask-fonts/blob/master/Casks/font-victor-mono.rb">FONT: Victor Mono</a>
-                            for text editor font. Supports ligatures and has a nice cursive                                                                                                                                                      italic font, similar to
-                            <a href="https://dank.sh/" rel="nofollow">Dank Mono</a>
-                            or
-                            <a href="https://github.com/tonsky/FiraCode">Fira Code</a>.
-                        </li>
-                    </ul>
-                </details>
-                <details>
-                    <summary>App Store Apps</summary>
-                    <ul>
-                        <li>
-                            <a href="https://apps.apple.com/us/app/amphetamine/id937984704?mt=12" rel="nofollow">Amphetamine</a>
-                            is a powerful keep-awake utility.
-                        </li>
-                        <li>
-                            <a href="https://code.visualstudio.com/" rel="nofollow">Be Focused - Focus Timer</a>
-                            is a pomodoro style focus timer for work and study.
-                        </li>
-                        <li>
-                            <a href="https://apps.apple.com/us/app/viper-ftp-lite-ftp-client/id1001007066?mt=12" rel="nofollow">Viper FTP Lite</a>
-                            is a User-friendly and reliable Mac FTP/FTPS/SFTP/WebDav/AS3                                                                                                                                                      client.
-                        </li>
-                    </ul>
-                </details>
+        <details>
+          <summary>Homebrew: Casks</summary>
+          <ul>
+            <li>
+              <a href="https://affinity.serif.com/en-us/photo/" rel="nofollow"
+                >Affinity Photo Beta</a
+              >
+              is a raster graphics editor.
+            </li>
+            <li>
+              <a
+                href="https://affinity.serif.com/en-us/designer/"
+                rel="nofollow"
+                >Affinity Designer Beta</a
+              >
+              is a vector graphics editor.
+            </li>
+            <li>
+              <a
+                href="https://www.mozilla.org/en-US/firefox/new/"
+                rel="nofollow"
+                >Firefox</a
+              >
+              for web browsing and testing.
+            </li>
+            <li>
+              <a
+                href="https://www.mozilla.org/en-US/firefox/developer/"
+                rel="nofollow"
+                >Firefox Developer Edition</a
+              >
+              is my main web browser for development. Best CSS tools built in.
+              Read more
+              <a
+                href="https://www.smashingmagazine.com/2019/10/guide-new-experimental-css-devtools-firefox/"
+                rel="nofollow"
+                >here</a
+              >.
+            </li>
+            <li>
+              <a
+                href="https://www.google.com/chrome/browser/desktop/"
+                rel="nofollow"
+                >Google Chrome</a
+              >
+              for fast and free web browsing.
+            </li>
+            <li>
+              <a href="https://hyper.is/" rel="nofollow">Hyper</a>
+              for an alternative terminal.
+            </li>
+            <li>
+              <a href="https://imageoptim.com/mac" rel="nofollow">ImageOptim</a>
+              to make batch optimisation of images part of your automated build
+              process.
+            </li>
+            <li>
+              <a href="https://www.mamp.info/en/" rel="nofollow">MAMP</a>
+              for PHP / Wordpress development.
+            </li>
+            <li>
+              <a
+                href="https://developer.microsoft.com/en-us/microsoft-edge/"
+                rel="nofollow"
+                >Microsoft Edge Dev</a
+              >
+              for testing.
+            </li>
+            <li>
+              <a href="https://www.spotify.com/" rel="nofollow">Spotify</a>
+              for music.
+            </li>
+            <li>
+              <a href="https://code.visualstudio.com/" rel="nofollow"
+                >Visual Studio Code</a
+              >
+              IDE.
+            </li>
+            <li>
+              <a href="https://zoom.us/" rel="nofollow">Zoom</a>
+              for video conferencing.
+            </li>
+            <li>
+              <a
+                href="https://github.com/Homebrew/homebrew-cask-fonts/blob/master/Casks/font-dejavusansmono-nerd-font-mono.rb"
+                >FONT: Dejavu Sans Mono</a
+              >
+              for command-line font. Has glyph support for
+              <code>git</code>
+              and works well with
+              <a href="https://github.com/romkatv/powerlevel10k"
+                >PowerLevel10K</a
+              >
+              (a ZSH theme).
+            </li>
+            <li>
+              <a
+                href="https://github.com/Homebrew/homebrew-cask-fonts/blob/master/Casks/font-victor-mono.rb"
+                >FONT: Victor Mono</a
+              >
+              for text editor font. Supports ligatures and has a nice cursive
+              italic font, similar to
+              <a href="https://dank.sh/" rel="nofollow">Dank Mono</a>
+              or
+              <a href="https://github.com/tonsky/FiraCode">Fira Code</a>.
+            </li>
+          </ul>
+        </details>
+        <details>
+          <summary>App Store Apps</summary>
+          <ul>
+            <li>
+              <a
+                href="https://apps.apple.com/us/app/amphetamine/id937984704?mt=12"
+                rel="nofollow"
+                >Amphetamine</a
+              >
+              is a powerful keep-awake utility.
+            </li>
+            <li>
+              <a href="https://code.visualstudio.com/" rel="nofollow"
+                >Be Focused - Focus Timer</a
+              >
+              is a pomodoro style focus timer for work and study.
+            </li>
+            <li>
+              <a
+                href="https://apps.apple.com/us/app/viper-ftp-lite-ftp-client/id1001007066?mt=12"
+                rel="nofollow"
+                >Viper FTP Lite</a
+              >
+              is a User-friendly and reliable Mac FTP/FTPS/SFTP/WebDav/AS3
+              client.
+            </li>
+          </ul>
+        </details>
 
-                <details>
-                    <summary>NPM Packages</summary>
-                    <ul>
-                        <li>
-                            <p>
-                                <a href="https://github.com/11ty/eleventy/">11ty</a>
-                                is a simpler static site generator.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <a href="https://eslint.org/" rel="nofollow">ESLint</a>
-                                linting utility for JavaScript.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <a href="https://www.gatsbyjs.org/" rel="nofollow">Gatsby</a>
-                                a static site generator built with React.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <a href="https://gridsome.org/" rel="nofollow">Gridsome</a>
-                                a static site generator built with Vue.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <a href="https://gulpjs.com/" rel="nofollow">Gulp</a>
-                                a task/build runner for development.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <a href="https://github.com/JamieMason/ImageOptim-CLI" rel="nofollow">ImageOptim-CLI</a>
-                                to make batch optimisation of images part of your automated build process.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <a href="https://cli.netlify.com/" rel="nofollow">Netlify</a>
-                                lets you deploy sites or configure continuous deployment straight from the command line.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <a href="https://www.npmjs.com/package/mamp-cli" rel="nofollow">MAMP-CLI</a>
-                                a command line interface for working with
-                                <a href="https://www.mamp.info/de/">MAMP</a>. It can start and stop your MAMP, but also easily switch the document                                                                        root so that you can switch projects easily by using a favorite list.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <a href="https://pa11y.org/" rel="nofollow">Pa11y</a>
-                                a command-line interface which loads web pages and highlights any accessibility issues it finds. Useful for when you want to run a one-off test against a web page.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <a href="https://github.com/microsoft/vscode-vsce">VSCE</a>
-                                - The Visual Studio Code Extension Manager.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <a href="https://cli.vuejs.org/" rel="nofollow">Vue-CLI</a>
-                                for quickly scaffolding Single Page Applications.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <a href="https://github.com/yeoman/yo">yo</a>
-                                CLI tool for running
-                                <a href="https://yeoman.io/" rel="nofollow">Yeoman</a>
-                                generators.
-                            </p>
-                        </li>
-                    </ul>
-                </details>
-                <details>
-                    <summary>Additional ZSH Settings (optional)</summary>
-                    <ul>
-                        <li>
-                            <a href="https://github.com/robbyrussell/oh-my-zsh/">Oh My ZSH</a>
-                            a framework for managing your zsh configuration.
-                        </li>
-                        <li>
-                            <a href="https://github.com/romkatv/powerlevel10k">Powerlevel10K</a>
-                            a ZSH theme.
-                        </li>
-                        <li>
-                            <a href="https://taniarascia.github.io/new-moon/">New Moon</a>
-                            a syntax theme.
-                        </li>
-                    </ul>
-                </details>
+        <details>
+          <summary>NPM Packages</summary>
+          <ul>
+            <li>
+              <p>
+                <a href="https://github.com/11ty/eleventy/">11ty</a>
+                is a simpler static site generator.
+              </p>
+            </li>
+            <li>
+              <p>
+                <a href="https://eslint.org/" rel="nofollow">ESLint</a>
+                linting utility for JavaScript.
+              </p>
+            </li>
+            <li>
+              <p>
+                <a href="https://www.gatsbyjs.org/" rel="nofollow">Gatsby</a>
+                a static site generator built with React.
+              </p>
+            </li>
+            <li>
+              <p>
+                <a href="https://gridsome.org/" rel="nofollow">Gridsome</a>
+                a static site generator built with Vue.
+              </p>
+            </li>
+            <li>
+              <p>
+                <a href="https://gulpjs.com/" rel="nofollow">Gulp</a>
+                a task/build runner for development.
+              </p>
+            </li>
+            <li>
+              <p>
+                <a
+                  href="https://github.com/JamieMason/ImageOptim-CLI"
+                  rel="nofollow"
+                  >ImageOptim-CLI</a
+                >
+                to make batch optimisation of images part of your automated
+                build process.
+              </p>
+            </li>
+            <li>
+              <p>
+                <a href="https://cli.netlify.com/" rel="nofollow">Netlify</a>
+                lets you deploy sites or configure continuous deployment
+                straight from the command line.
+              </p>
+            </li>
+            <li>
+              <p>
+                <a href="https://www.npmjs.com/package/mamp-cli" rel="nofollow"
+                  >MAMP-CLI</a
+                >
+                a command line interface for working with
+                <a href="https://www.mamp.info/de/">MAMP</a>. It can start and
+                stop your MAMP, but also easily switch the document root so that
+                you can switch projects easily by using a favorite list.
+              </p>
+            </li>
+            <li>
+              <p>
+                <a href="https://pa11y.org/" rel="nofollow">Pa11y</a>
+                a command-line interface which loads web pages and highlights
+                any accessibility issues it finds. Useful for when you want to
+                run a one-off test against a web page.
+              </p>
+            </li>
+            <li>
+              <p>
+                <a href="https://github.com/microsoft/vscode-vsce">VSCE</a>
+                - The Visual Studio Code Extension Manager.
+              </p>
+            </li>
+            <li>
+              <p>
+                <a href="https://cli.vuejs.org/" rel="nofollow">Vue-CLI</a>
+                for quickly scaffolding Single Page Applications.
+              </p>
+            </li>
+            <li>
+              <p>
+                <a href="https://github.com/yeoman/yo">yo</a>
+                CLI tool for running
+                <a href="https://yeoman.io/" rel="nofollow">Yeoman</a>
+                generators.
+              </p>
+            </li>
+          </ul>
+        </details>
+        <details>
+          <summary>Additional ZSH Settings (optional)</summary>
+          <ul>
+            <li>
+              <a href="https://github.com/robbyrussell/oh-my-zsh/">Oh My ZSH</a>
+              a framework for managing your zsh configuration.
+            </li>
+            <li>
+              <a href="https://github.com/romkatv/powerlevel10k"
+                >Powerlevel10K</a
+              >
+              a ZSH theme.
+            </li>
+            <li>
+              <a href="https://taniarascia.github.io/new-moon/">New Moon</a>
+              a syntax theme.
+            </li>
+          </ul>
+        </details>
 
-                <p class="muted pt-1">
-                    For full and most current listing, view on
-                    <a href="https://github.com/buildingsareheavy/ando">
-                        Github</a>
-                </p>
-            </section>
+        <p class="muted pt-1">
+          For full and most current listing, view on
+          <a href="https://github.com/buildingsareheavy/ando"> Github</a>
+        </p>
+      </section>
 
-            <section class="install">
-                <h2>Installation</h2>
+      <section class="install">
+        <h2>Installation</h2>
 
-                <p class="pt-1">
-                    Ando is meant to run multiple times on the same machine. It installs,                                                                                                  upgrades, or skips depending on what is already installed.
-                </p>
+        <p class="pt-1">
+          Ando is meant to run multiple times on the same machine. It installs,
+          upgrades, or skips depending on what is already installed.
+        </p>
 
-                <p class="pt-2">Download:</p>
-                <pre
+        <p class="pt-2">Download:</p>
+        <pre
           class="language-bash"
         ><code class="language-bash">git clone https://github.com/buildingsareheavy/ando.git && cd ando</code></pre>
-                <p>
-                    Review: (please don't run scripts you don't understand)
-                </p>
-                <pre
+        <p>
+          Review: (please don't run scripts you don't understand)
+        </p>
+        <pre
           class="language-bash"
         ><code class="language-bash">less blueprints</code></pre>
 
-                <p class="pt-2">Run:</p>
-                <pre
+        <p class="pt-2">Run:</p>
+        <pre
           class="language-bash"
         ><code class="language-bash">sh goAndo</code></pre>
-                <p>Or run with log:</p>
-                <pre
+        <p>Or run with log:</p>
+        <pre
           class="language-bash"
         ><code class="language-bash">sh goAndo 2>&1 | tee ~/ando.log</code></pre>
-                <p>Check and debug the log:</p>
-                <pre
+        <p>Check and debug the log:</p>
+        <pre
           class="language-bash"
         ><code class="language-bash">less ~/ando.log</code></pre>
-            </section>
+      </section>
 
-            <section class="acknowledge">
-                <h2>Acknowledgements</h2>
-                <p class="pt-1">
-                    Code was inspired, copied and modified from
-                    <a href="https://github.com/minamarkham">Mina Markham</a>'s
-                    <a href="https://github.com/minamarkham/formation">formation</a>.
-                </p>
-            </section>
-        </main>
+      <section class="acknowledge">
+        <h2>Acknowledgements</h2>
+        <p class="pt-1">
+          Code was inspired, copied and modified from
+          <a href="https://github.com/minamarkham">Mina Markham</a>'s
+          <a href="https://github.com/minamarkham/formation">formation</a>.
+        </p>
+      </section>
+    </main>
 
-        <footer>
-            <p>
-                <a href="https://github.com/buildingsareheavy/ando">View on Github</a>
-            </p>
+    <footer>
+      <p>
+        <a href="https://github.com/buildingsareheavy/ando">View on Github</a>
+      </p>
 
-            <p class="pt-1">
-                ©
-                <script type="text/javascript">
-                    document.write(new Date().getFullYear());
-                </script>
-                - Ethan Bradford Barrett
-            </p>
-            <p>
-                <a href="">BuildingsAreHeavy.com</a>
-            </p>
-        </footer>
+      <p class="pt-1">
+        ©
+        <script type="text/javascript">
+          document.write(new Date().getFullYear());
+        </script>
+        - Ethan Bradford Barrett
+      </p>
+      <p>
+        <a href="">BuildingsAreHeavy.com</a>
+      </p>
+    </footer>
 
-        <script src="./js/prism.js"></script>
-    </body>
+    <script src="./js/prism.js"></script>
+  </body>
 </html>
