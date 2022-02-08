@@ -2,6 +2,9 @@ backend:
   name: git-gateway
   branch: 11ty # Branch to update
 
+  media_folder: "_site/images/uploads"
+  public_folder: "/images/uploads"
+
   collections:
    - name: "posts" # The name of the collection and should match our posts.json file's tag
      label: "Posts" # The name of the collection on the CMS itself
