@@ -1,0 +1,8 @@
+<ul>
+  {% for post in postslist %}
+    <li>
+        <h2>{{ post.data.title }}</h2>
+        <p>{{ post.data.description }}</span>
+    </li>
+  {% endfor %}
+</ul>
