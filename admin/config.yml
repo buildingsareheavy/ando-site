@@ -2,17 +2,17 @@ backend:
   name: git-gateway
   branch: 11ty # Branch to update
 
-  media_folder: "_site/images/uploads"
-  public_folder: "/images/uploads"
+media_folder: "_site/images/uploads"
+public_folder: "/images/uploads"
 
-  collections:
-   - name: "posts" # The name of the collection and should match our posts.json file's tag
-     label: "Posts" # The name of the collection on the CMS itself
-     folder: "posts" # The folder that our blog posts will be loaded from and saved to
-     create: true # Tells the CMS that new posts can be created
-     slug: "{{slug}}" # This sets the URL for the post. {{slug}} is a url-safe version of the post's title
-     fields: #Front matter
-        - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk"}
-        - {label: "Title", name: "title", widget: "string"}
-        - {label: "Description", name: "description", widget: "string"}
-        - {label: "Post Body", name: "body", widget: "markdown"}
+collections:
+  - name: "posts" # The name of the collection and should match our posts.json file's tag
+    label: "Posts" # The name of the collection on the CMS itself
+    folder: "posts" # The folder that our blog posts will be loaded from and saved to
+    create: true # Tells the CMS that new posts can be created
+    slug: "{{slug}}" # This sets the URL for the post. {{slug}} is a url-safe version of the post's title
+    fields: #Front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Post Body", name: "body", widget: "markdown"}
